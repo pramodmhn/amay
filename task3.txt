@@ -1,0 +1,4 @@
+INSERT INTO sent_mail (Email_Address, Last_Plan, Tenure_Months, CLV,Port_out_Date, Port_Out_Carrier, campaigns)
+          VALUES ('test1@amaysim.com.au', 'Unlimited', '12', 'High', '2017-05-01','Telstra','winback_vaya'),
+				 ('test2@amaysim.com.au', 'Unlimited', '20', 'Med', '2016-12-30', 'Vodafone', 'winback_vaya'),
+				 ('Test3@amaysim.com.au', 'Flexi', '3', 'Low', '2015-04-04', 'Optus','winback_vaya');

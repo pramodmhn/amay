@@ -1,0 +1,32 @@
+switch (Port_Out_Carrier) {
+	case 'Telstra':
+	if(Last_Plan == 'Unlimited'){
+		Discount_code = 'FELUNL15';
+		Discount_Amount = '15';
+	}
+	else if(Last_Plan == 'Flexi'){
+		Discount_code = 'FELUNL10';
+		Discount_Amount = '10';
+	}
+	break;
+	case 'Vodafone' :
+	if(Last_Plan == 'Unlimited'){
+		Discount_code = 'VODUNL10';
+		Discount_Amount = '10';
+	}
+	else if(Last_Plan == 'Flexi'){
+		Discount_code = 'VODFLE';
+		Discount_Amount = '5';
+	}
+	break;
+	case 'Optus':
+	if(Last_Plan == 'Unlimited'){
+		Discount_code = 'OPTUNL5';
+		Discount_Amount = '10';
+	}
+	else if(Last_Plan == 'Flexi'){
+		Discount_code = 'OPTFLE5';
+		Discount_Amount = '5';
+	}
+	break;
+}
